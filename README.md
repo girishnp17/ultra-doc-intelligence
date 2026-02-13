@@ -94,10 +94,3 @@ Gemini extracts: `shipment_id`, `shipper`, `consignee`, `pickup_datetime`, `deli
 - **Multi-document queries** — each document is isolated; cross-document questions not supported
 - **Complex tables** — nested or merged-cell tables may not parse perfectly
 
-## Improvement Ideas
-- OCR support (Tesseract/EasyOCR) for scanned PDFs
-- Hybrid retrieval (vector + BM25 keyword search)
-- Cross-encoder re-ranking for better precision
-- Streaming LLM responses via SSE
-- Multi-document querying
-- Response caching for repeated queries
